@@ -1,0 +1,29 @@
+10 jun 2018 changes
+1. Customer search - keep all options on the screen for entering data - done
+2. Customer search - start by last name (continuous search) - done
+3. customer Search - single field search (UHID, FirstName, DOB, LastName, Mobile, Aadhar) done
+4. Patient creation - keep FirstName, LastName, ContactNumber needs to be unique. - done
+5. Search Appointment - search by date, consultant - not done..
+6. Create appointment - check availability (consultant, date/time) -- deferred
+7. Staff tables - add employee id field and further normalize -- not done
+
+8 July 2018
+appointments screen  - remove OK button and add Book Appointment button + function
+appointment table header, mouse-over highlight, In-time, status change - dropdown -  with color-coding
+how to make a table row editable
+Calendar object for appointments selection/retrieval for other than today's date
+To change the appointment, use the appointments screen.
+Search Patient - patient info .. 3 buttons - Book Appointment, Edit Patient, Save Patient
+appointment details - add fields to UI - accompanied by, RelationWithPatient, contact_number
+remove TokenID..
+Status Change needs to be recorded - including time, status etc..
+appointments to be shown while editing an appointment or rescheduling
+Consultant drop-down - make a web-service call
+bring appointment date and time in line with Consultant on the create appointment page
+booked on to be removed from create appointment page
+
+
+21 July 2018
+search appointments by date range
+referred by - create new table and new web-service called
+consultant - new web-service call
